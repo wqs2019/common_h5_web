@@ -4,7 +4,6 @@ import cloudbase from './utils/cloudbase'
 import HomePage from './pages/HomePage'
 import UserAgreementPage from './pages/UserAgreementPage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
-import Footer from './components/Footer'
 import './App.css'
 
 function App() {
