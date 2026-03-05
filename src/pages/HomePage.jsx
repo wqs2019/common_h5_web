@@ -146,6 +146,20 @@ const HomePage = () => {
       </motion.div>
 
       <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="flex justify-center gap-4 mt-8"
+      >
+        <Link to="/user-agreement" className="btn btn-secondary">
+          查看用户协议
+        </Link>
+        <Link to="/privacy-policy" className="btn btn-secondary">
+          查看隐私政策
+        </Link>
+      </motion.div>
+
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.8 }}
